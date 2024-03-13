@@ -12,7 +12,7 @@ static class BotService
 {
     public static System.Threading.Tasks.Task DoSomething()
     {
-        var botClient = new TelegramBotClient("7140489877:AAGX2EtJrj40bBJuo0SDarcwJJQNvVhXMTk");
+        var botClient = new TelegramBotClient("8240489877:AAGX2EtJrj40bBJuo0SDarcwJJQNvVhXMTk");
 
         botClient.StartReceiving(new DefaultUpdateHandler(HandleUpdateAsync, HandleErrorAsync));
 
